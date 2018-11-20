@@ -1,0 +1,10 @@
+/**
+ * Place your custom styles here.
+ */
+
+#banner-videos {
+  background-color: #0072bc;
+  color: #FFF;
+  padding: 3.5em 0 2.5em 0;
+  border-bottom: 5px #FFF solid;
+}

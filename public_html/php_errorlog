@@ -1,0 +1,7 @@
+[03-Sep-2018 19:08:51 UTC] Uncaught PHP Exception Drupal\Core\Database\DatabaseExceptionWrapper: "SQLSTATE[42S22]: Column not found: 1054 Unknown column 'revision.revision_user' in 'field list': SELECT revision.revision_id AS revision_id, revision.langcode AS langcode, revision.revision_user AS revision_user, revision.revision_created AS revision_created, revision.revision_log AS revision_log, revision.revision_default AS revision_default, base.id AS id, base.type AS type, base.uuid AS uuid, CASE base.revision_id WHEN revision.revision_id THEN 1 ELSE 0 END AS isDefaultRevision
+FROM 
+{block_content} base
+INNER JOIN {block_content_revision} revision ON revision.revision_id = base.revision_id; Array
+(
+)
+" at /home/tampacfc/public_html/core/lib/Drupal/Core/Database/Connection.php line 686

@@ -1,0 +1,32 @@
+name = Tampa CFC 
+description = Tampa CFC Bootstrap Sub-Theme
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar - Top Row'
+regions[search_box]     = 'Top Bar - Search'
+regions[util_header]    = 'Top Bar - Bottom Row'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[pre_content]    = 'Pre-Content'
+regions[content]        = 'Content'
+regions[post_content]   = 'Post-Content'
+regions[sidebar_first]  = 'Left Sidebar'
+regions[sidebar_second] = 'Right Sidebar'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
