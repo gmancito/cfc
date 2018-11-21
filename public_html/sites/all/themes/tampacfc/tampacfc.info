@@ -1,4 +1,4 @@
-name = Tampa CFC 
+name = Tampa CFC
 description = Tampa CFC Bootstrap Sub-Theme
 core = 7.x
 base theme = bootstrap
@@ -28,5 +28,6 @@ regions[page_bottom]    = 'Page bottom'
 ;; Stylesheets
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bundle.css
 
+scripts[] = 'js/bundle.js'

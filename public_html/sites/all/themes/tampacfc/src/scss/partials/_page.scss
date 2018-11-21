@@ -1,0 +1,24 @@
+html,
+body {
+  color: $brand-black;
+}
+
+h1 {
+  color: $brand-primary;
+}
+
+.strong {
+  color: $brand-primary;
+}
+
+p {
+  a {
+    color: darken($brand-primary, 10%);
+  }
+  // on Mobile and higher apply a different style using mixin
+  @include size(mdu) {
+    a {
+      color: lighten($brand-primary, 10%);
+    }
+  }
+}
