@@ -1,0 +1,7 @@
+@import "variables";
+@import "mixins";
+
+// Sass partials
+// create a new _partials.scss and import it for different parts of your app aka header, footer, navbar, sidebar, buttons, etc...
+@import "partials/navbar";
+@import "partials/page";
