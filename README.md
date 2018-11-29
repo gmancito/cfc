@@ -2,7 +2,7 @@
 
 ## Backups
 
-start docker containers
+start docker containers (site will be on localhost:8080)
 
 - `docker-compose up`
 
