@@ -239,10 +239,7 @@
     <?php if ($page['footer']): ?>
       <div id="footer" class="clearfix">
         <?php print render($page['footer']); ?>
-      <?php if ($is_front) { ?>
-		<div><a href="http://www.siteground.com/drupal-hosting.htm">Hosting for Drupal CMS by SiteGround</a></div>
-		<?php } ?>
-		</div> <!-- /#footer -->
+      </div> <!-- /#footer -->
     <?php endif; ?>
 
   </div></div> <!-- /.section, /#footer-wrapper -->
