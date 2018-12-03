@@ -16,4 +16,4 @@ NOTE: Edit `settings.ddev.php` and add the `'prefix' => "tcfc_",` to the databas
 
 ** Visit http://cfc.ddev.local:8080/ to see the site **
 
-![alt text](https://raw.githubusercontent.com/gmancito/cfc/blob/master/ddev-setup.jpg "Setup")
+![alt text](https://raw.githubusercontent.com/gmancito/cfc/master/ddev-setup.jpg "Setup")
