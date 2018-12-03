@@ -1,21 +1,19 @@
-# Docker Commands
+# DDEV for local development
 
-## Backups
+Follow the https://ddev.readthedocs.io/en/stable/#installation instructions, you will need docker pre-installed.
 
-start docker containers (site will be on localhost:8080)
+- Download the windows exe from https://github.com/drud/ddev/releases
 
-- `docker-compose up`
+## Database Import
 
-Locate the running database container hash ID with `docker ps` (example is 711464597d8c for mariadb) use that in place of the CONTAINER in the below commands, run via powershell
+Follow https://ddev.readthedocs.io/en/stable/users/cli-usage/#database-imports
 
-### Backup DB (Replace CONTAINER with UID, run `docker ps` to see containers)
+- Run `ddev import-db --src=tampacfc_tcfc.sql`
 
-- `docker exec CONTAINER /usr/bin/mysqldump -u root --password=AppleSucks drupal > backup.sql`
+NOTE: Edit `settings.ddev.php` and add the `'prefix' => "tcfc_",` to the database settings to match the database.
 
-### Restore DB
+`Run`ddev start`
 
-- `cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE`
+** Visit http://cfc.ddev.local:8080/ to see the site **
 
-## Clean up exited containers
-
-Exited containers are not running, but use up hard drive space. To remove all exited containers use `docker rm $(docker ps -a -q -f status=exited)`
+![alt text](https://raw.githubusercontent.com/gmancito/cfc/blob/master/ddev-setup.jpg "Setup")
