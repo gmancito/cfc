@@ -74,7 +74,7 @@
  */
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-<?php echo "This is the HOME PAGE" ?>
+<?php //echo "This is the HOME PAGE" ?>
   <div class="container">
     <div class="flex flex-row">
       <?php if ($logo): ?>
@@ -129,7 +129,7 @@
 
 <div class="main-container-wrapper">
 <div class="main-container container <?php //print $container_class; ?>" >
-This is the front page template
+
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>

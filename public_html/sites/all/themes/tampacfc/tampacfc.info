@@ -29,5 +29,6 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/bundle.css
+stylesheets[all][] = css/style.css
 
 scripts[] = 'js/bundle.js'

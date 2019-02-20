@@ -2,9 +2,35 @@
  * Place your custom styles here.
  */
 
+/* Home Page */
 #banner-videos {
   background-color: #0072bc;
-  color: #FFF;
-  padding: 3.5em 0 2.5em 0;
+  color: #FFF !important;
+  padding: 3em;
   border-bottom: 5px #FFF solid;
 }
+
+ #know-us {
+  padding: 1em;
+  border-bottom: 5px #FFF solid; 
+ }
+ 
+.panel-primary > .panel-heading {
+  color: #fff;
+  background-color: #0072bc;
+  border-color: #0072bc;
+}
+
+.panel {
+  margin-bottom: 1em;
+}
+
+#navbar {
+  background-color: #2d3036;    
+}
+
+.navbar-btn { 
+  margin: 0; 
+}
+
+
